@@ -19,11 +19,11 @@ URLS = {
         "https://www.prothomalo.com/sports/cricket/ls1a6xcniv",
     ],
     KalerKanthoScraper: [
-        "https://www.kalerkantho.com/online/world/2025/05/20/1520141",
-        "https://www.kalerkantho.com/online/country-news/2025/05/22/1521222",
+        "https://www.kalerkantho.com/online/entertainment/2025/05/31/1526085",
+        "https://www.kalerkantho.com/online/entertainment/2025/05/31/1526048",
         "https://www.kalerkantho.com/online/Islamic-lifestylie/2025/05/22/1521254",
         "https://www.kalerkantho.com/online/business/2025/05/21/1520902",
-        "https://www.kalerkantho.com/online/sport/2025/05/22/1521130"
+        "https://www.kalerkantho.com/online/sport/2025/05/31/1526036"
 
     ],
     BhorerKagojScraper: [

@@ -27,7 +27,7 @@ class KalerKanthoScraper(BaseScraper):
                 print("Error parsing JSON-LD:", e)
 
         return {
-            "headline": clean_whitespace(headline.get_text()) if headline else "",
+            "headline": clean_whitespace(headline.get_text()),
             "author": clean_whitespace(author.get_text()) if author else "",
             "content": content,
             "published": clean_whitespace(published.get_text()) if published else "",
