@@ -1,12 +1,3 @@
-## Extracted news URLs
-
-URLs are saved in separate json files except Kaler kantho & Bangladesh pratidin are saved together in one file
-
-Location:
-  `data/`
-
-URLs are saved in the following format:
-  [['source', 'timestamp', 'URL'],...]
 
 
 
