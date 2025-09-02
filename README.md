@@ -1,4 +1,6 @@
-## Requirements
+##  Purpose
+This project has been prepared to collect, analyse and train a Political AI model for an ongoing academic research project. 
+### Requirements
 
 - Python 3.7+
 - `requests`
@@ -12,7 +14,7 @@ You can install the dependencies with:
 pip install requests beautifulsoup4 html5lib pandas
 ```
 
-## Usage
+### Usage
 
 ### 1. Clone the Repository
 
@@ -50,4 +52,10 @@ After running, you'll find a file called `scrapped_data.csv` in the project dire
 - **Author**,
 - **Content**,
 - **Published date**, and
-- **Source**.
+- **Source**
+---
+### Additional Information
+
+Apart from scraping articles, this project also includes a news link scrapper (scrapers > url_crawler.py) that collects article links from the sitemaps of the targetted news websites within a given date range.
+
+Total 2.32 million news links have been collected from 5 newspaper sites using this crawler.
