@@ -39,10 +39,15 @@ python main.py
 ```
 
 This will:
-- Scrape articles from predefined URLs for each site.
+- Scrape articles from predefined URLs for each site. 
 - Aggregate the results.
 - Output the data to `scrapped_data.csv`.
 
 ### 4. Output
 
-After running, you'll find a file called `scrapped_data.csv` in the project directory. This file contains all the scraped articles with columns for headline, author, content, published date, and source.
+After running, you'll find a file called `scrapped_data.csv` in the project directory. This file contains all the scraped articles with columns for:
+- **Headline**,
+- **Author**,
+- **Content**,
+- **Published date**, and
+- **Source**.
